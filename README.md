@@ -30,7 +30,30 @@ STEP:11  On the board, by giving required input, the LEDs starts to glow light, 
 
 
 **Verilog code**
-<<<< type your Verilog code here >>>>>>>
+MULTIPLIER 2BIT:
+```
+module ha(a,b,sum,carry);
+input a,b;
+output sum,carry;
+xor g1(sum,a,b);
+and g2(carry,a,b);
+endmodule
+module bitmul(a,b,p,cout);
+input [1:0]a,b;
+output [2:0]p;
+output cout;
+wire w1,w2,w3,w4;
+and (p[0],a[0],b[0]);
+and (w1,a[0],b[1]);
+and (w2,a[1],b[0]);
+and (w3,a[1],b[1]);
+ha adder1(w1,w2,p[1],w4);
+endmodule
+```
+OUTPUT:
+![WhatsApp Image 2024-04-22 at 14 53 50_49367b66](https://github.com/Yogalakshmip08/VLSI-LAB-EXP-3/assets/161303457/b14f08f2-96b1-450a-9b4f-005db24801c1)
+
+
 
 **Output Waveform**
 
