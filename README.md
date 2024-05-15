@@ -120,8 +120,11 @@ fa r74(w[15],fc[4],fc[6],p[6],p[7]);
 endmodule
 ```
 OUTPUT:
+
 ![WhatsApp Image 2024-04-22 at 14 54 01_b750ffe1](https://github.com/Yogalakshmip08/VLSI-LAB-EXP-3/assets/161303457/1d9e2ce3-0178-48df-917c-06b67191751b)
+
 ![WhatsApp Image 2024-04-22 at 14 54 05_fbe76254](https://github.com/Yogalakshmip08/VLSI-LAB-EXP-3/assets/161303457/e399e426-9c83-4ad3-8305-b7a1b9bf7681)
+
 RESULT:
 Hence, multiplier using Vivado 2023 is simulated and synthesised.
 
